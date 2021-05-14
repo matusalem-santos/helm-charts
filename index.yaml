@@ -3,7 +3,7 @@ entries:
   janusgraph:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-05-14T10:10:24.183181962-03:00"
+    created: "2021-05-14T14:34:11.435513211-03:00"
     dependencies:
     - condition: elasticsearch.deploy
       name: elasticsearch
@@ -19,4 +19,22 @@ entries:
     urls:
     - https://matusalem-santos.github.io/helm-charts/janusgraph-1.0.0.tgz
     version: 1.0.0
-generated: "2021-05-14T10:10:24.17559103-03:00"
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-05-14T14:34:11.426363306-03:00"
+    dependencies:
+    - condition: elasticsearch.deploy
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.12.1
+    description: Open source, scalable graph database.
+    digest: 69f01d40a4c51eae70bd865619195fec354254b67c7cb77717bd90d5d0ffd6da
+    home: http://janusgraph.org
+    icon: https://raw.githubusercontent.com/JanusGraph/janusgraph/master/janusgraph.png
+    name: janusgraph
+    sources:
+    - https://github.com/JanusGraph/janusgraph
+    urls:
+    - https://matusalem-santos.github.io/helm-charts/janusgraph-0.2.0.tgz
+    version: 0.2.0
+generated: "2021-05-14T14:34:11.419655904-03:00"

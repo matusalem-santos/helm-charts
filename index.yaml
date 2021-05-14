@@ -3,7 +3,7 @@ entries:
   janusgraph:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-05-14T14:34:11.426363306-03:00"
+    created: "2021-05-14T15:13:29.948609685-03:00"
     dependencies:
     - condition: elasticsearch.deploy
       name: elasticsearch
@@ -19,4 +19,4 @@ entries:
     urls:
     - https://matusalem-santos.github.io/helm-charts/janusgraph-0.2.0.tgz
     version: 0.2.0
-generated: "2021-05-14T14:34:11.419655904-03:00"
+generated: "2021-05-14T15:13:29.94503295-03:00"
